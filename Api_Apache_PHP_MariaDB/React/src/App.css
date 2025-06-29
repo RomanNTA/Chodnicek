@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background-color: #e6f7ff !important; */
+  /* font-family: "Poppins" !important; */
+  /* color: #3498db !important; */
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+/*
+import "../../../node_modules/leaflet/dist/leaflet.css"; // Důležité pro stylování
+*/
+.header {
+  text-align: center;
+}
+
+/* ------------------ testovací prvky ------------------- */
+.b {
+  border: 2px solid red;
+}
+
+.c {
+  border: 2px solid lime;
+}
+
+.d {
+  border: 2px solid purple;
+}
+
+.e {
+  border: 2px solid blue;
+}
+
+.f {
+  border: 2px solid yellow;
+}
+
+/* -------------------  ------------------------- */
+.n-button {
+  box-shadow: inset -2px -2px 5px 2px #050505 !important;
+  color: #2c2e40;
+}
+
+.n-button:hover {
+  box-shadow: inset -1px -1px 2px 2px #050505 !important;
+  cursor: pointer;
+  color: #2c2e40;
+  scale: 1;
+}
+
+textarea,
+input[type] {
+  font-size: small;
+  padding: 5px;
+  height: 22px;
+}
+
+.n-fs-small {
+  font-size: small !important;
+}
+
+label {
+  font-size: small;
+  height: 22px;
+}
+
+#TabsHandler > li {
+  color: navy;
+}
+
+#TabsHandler > li .active {
+  background-color: rgba(200, 222, 247, 0.6666666667) !important;
+  color: navy;
+}
+
+#TabsHandlerForFile {
+  font-size: small !important;
+}
+
+#TabsHandlerForFile > li .active {
+  background-color: rgba(200, 247, 213, 0.6666666667) !important;
+  color: navy;
+}
+
+#TabsHandlerForFile > li .active {
+  background-color: rgba(200, 247, 213, 0.6666666667) !important;
+  color: navy;
+}
+
+.n-button:hover::after {
+  box-shadow: none !important;
+  cursor: pointer;
+  color: #2c2e40;
+  scale: 1;
+}
+
+.n-button:focus {
+  box-shadow: 0 0 2px 5px white;
+  filter: drop-shadow(0 0 5px #cfcfcf);
+}
+
+.n-button:focus:after {
+  background-color: #e92fe9;
+  box-shadow: none !important;
+  color: #2c2e40;
+}
+
+.n-sirka {
+  width: 800px;
+  min-height: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bg-container {
+  background-color: burlywood;
+}
+
+.overflow-map {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.n-panel-parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.n-pointer-events-none {
+  pointer-events: none;
+}
+
+.n-pointer-events-all {
+  pointer-events: all;
+}
+
+.n-panel {
+  background-color: rgba(102, 172, 212, 0.5647058824) !important;
+  border-radius: 20px;
+  box-shadow: -2px -2px 20px 10px white;
+}
+
+.leaflet-control {
+  z-index: 0 !important;
+}
+
+.leaflet-pane {
+  z-index: 0 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 0 !important;
+}
+
+/* .n-form-range {
+
+}
+ */
+#karty .nav-item .active {
+  border-bottom: 2px solid navy;
+}
+
+.n-color-settings {
+  background-color: rgba(68, 83, 159, 0.491) !important;
+  color: black !important;
+}
+
+.n-card {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+  border: 5px solid red;
+}
+
+.n-text-wrap {
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  min-height: -moz-fit-content !important;
+  min-height: fit-content !important;
+}
+
+.n-color1 {
+  background-color: rgba(68, 83, 159, 0.491) !important;
+}/*# sourceMappingURL=App.css.map */
